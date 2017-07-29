@@ -10,9 +10,11 @@ import VueAwesomeSwiper from 'vue-awesome-swiper';
 
 import 'mint-ui/lib/style.css';
 import 'iview/dist/styles/iview.css';
+import 'vue2-animate/dist/vue2-animate.min.css';
 
 import store from './vuex/store';
 
+// 关闭生产模式下给出的提示
 Vue.config.productionTip = false;
 
 Vue.use(MintUI);

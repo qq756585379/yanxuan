@@ -37,16 +37,16 @@
 </script>
 
 <style>
-  .header{
+  .header {
     position: fixed;
     top: 0;
     z-index: 100;
   }
-  .Home{
+  .Home {
     display: flex;
     flex-direction: column;
   }
-  .content{
+  .content {
     overflow: scroll;
     margin-top: 74px;
     margin-bottom: 1.30667rem;
