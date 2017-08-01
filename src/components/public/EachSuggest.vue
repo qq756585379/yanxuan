@@ -52,10 +52,12 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
   .suggest {
     background-color: #fff;
     margin-bottom: .26667rem;
   }
+
   .suggest .hd {
     height: 1.38667rem;
     padding: .26667rem .4rem;
@@ -63,6 +65,7 @@
     align-items: center;
     justify-content: flex-start;
   }
+
   .hd .avatar {
     width: .85333rem;
     height: .85333rem;
@@ -71,26 +74,31 @@
     overflow: hidden;
     border: 1px solid #d9d9d9;
   }
+
   .avatar img {
     display: block;
     width: 100%;
     height: 100%;
   }
+
   .author {
     font-size: .37333rem;
     color: #333;
   }
+
   /*container*/
   .imgContainer {
     position: relative;
     height: 5.6rem;
   }
+
   .u-icon-topicReadCount {
     position: absolute;
     bottom: 0;
     right: 0;
     text-align: right;
   }
+
   .eyeAndcount {
     display: inline-block;
     text-align: right;
@@ -100,18 +108,21 @@
     line-height: .48rem;
     position: relative;
   }
+
   .u-icon-topicEye {
     width: .28rem;
     height: .18667rem;
     background: url(//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/topicEye-b71328754f.png) no-repeat;
     background-size: 100%;
   }
+
   .topicInfo {
     overflow: hidden;
     background-color: #fff;
     position: relative;
     padding: .33333rem .4rem .74667rem;
   }
+
   .topicInfo .line1 {
     margin-bottom: .17333rem;
     display: flex;
@@ -123,11 +134,13 @@
     align-items: center;
     line-height: 1.2;
   }
+
   .topicInfo .line1 .title {
     margin-right: .8rem;
     font-size: .48rem;
     color: #333;
   }
+
   .topicInfo .line2 .subTitle {
     position: relative;
     font-size: .37333rem;

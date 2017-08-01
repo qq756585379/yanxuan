@@ -10,10 +10,6 @@
   </div>
 </template>
 
-<script>
-  export default {};
-</script>
-
 <style scoped>
   .cell {
     border-top: 1px solid #d9d9d9;
@@ -25,18 +21,22 @@
     display: -ms-flex;
     display: -o-flex;
   }
+
   img {
     width: 3.86667rem;
     height: 3.2rem;
   }
+
   .right {
     text-align: left;
   }
+
   .tagWraper {
     z-index: 1;
     margin-bottom: .17333rem;
     overflow: hidden;
   }
+
   .right .hotname {
     width: 4.66667rem;
     text-overflow: ellipsis;
@@ -46,11 +46,13 @@
     line-height: .64rem;
     color: #333;
   }
+
   .right .desc {
     font-size: .32rem;
     line-height: .58667rem;
     color: #999;
   }
+
   .right .hotprice {
     font-size: .42667rem;
     line-height: .64rem;

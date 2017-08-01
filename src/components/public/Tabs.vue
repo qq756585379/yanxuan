@@ -17,25 +17,22 @@
 <script>
   export default {
     props: ['tabs'],
-    data () {
-      return {}
-    },
     methods: {
       activethis (id) {
         // 找出当前激活的选项，当前点击的选项
         if (this.$route.path.indexOf('type') >= 0) {
-          this.$store.dispatch('changeTypesabActive', id)
-          return false
+          this.$store.dispatch('changeTypesabActive', id);
+          return false;
         }
         if (this.$route.path.indexOf('mylist') >= 0) {
-          this.$store.dispatch('changeMylistActive', id)
-          return false
+          this.$store.dispatch('changeMylistActive', id);
+          return false;
         }
-        console.log(id)
-        this.$store.dispatch('changeHeadertabActive', id)
+        console.log(id);
+        this.$store.dispatch('changeHeadertabActive', id);
       }
     }
-  }
+  };
 </script>
 
 <style scoped>
@@ -44,6 +41,7 @@
     display: flex;
     justify-content: space-around;
   }
+
   header {
     display: -webkit-box;
     display: -webkit-flex;

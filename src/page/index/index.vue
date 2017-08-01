@@ -42,10 +42,12 @@
     top: 0;
     z-index: 100;
   }
+
   .Home {
     display: flex;
     flex-direction: column;
   }
+
   .content {
     overflow: scroll;
     margin-top: 74px;
