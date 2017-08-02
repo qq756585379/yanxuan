@@ -23,8 +23,8 @@
   }
 
   img {
-    width: 3.86667rem;
-    height: 3.2rem;
+    width: 3rem;
+    height: 3rem;
   }
 
   .right {
@@ -32,8 +32,9 @@
   }
 
   .tagWraper {
+    position: absolute;
     z-index: 1;
-    margin-bottom: .17333rem;
+    right: 20px;
     overflow: hidden;
   }
 

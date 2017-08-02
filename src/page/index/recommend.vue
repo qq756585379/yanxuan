@@ -76,19 +76,15 @@
     <!--人气推荐-->
     <div class="peoplehot">
       <div class="hottitle">
-        <div>
-          人气推荐<i data-v-1bc3f80e="" class="arrow-right"></i>
-        </div>
+        <div>人气推荐<i data-v-1bc3f80e="" class="arrow-right"></i></div>
       </div>
       <cell></cell>
       <cell></cell>
-
+      <cell></cell>
+      <cell></cell>
     </div>
-    <goods-grid>
-
-    </goods-grid>
-    <div>
-    </div>
+    <goods-grid></goods-grid>
+    <div></div>
   </div>
 </template>
 
@@ -99,6 +95,7 @@
   import noLoopSwiper from '@/components/public/NoLoopSwiper';
   import dealPromise from '@/components/public/DealPromise';
   import cell from '@/components/public/cell';
+
   export default {
     data () {
       return {
@@ -204,5 +201,5 @@
 </script>
 
 <style lang="css" scoped>
-  @import '../../assets/style/home.css';
+  @import '../../../static/style/home.css';
 </style>

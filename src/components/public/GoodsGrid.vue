@@ -3,7 +3,6 @@
     <div class="goodsgrid" v-for="eachdata in data">
       <header>
         <h3 class="title">{{eachdata.title}} <p>{{eachdata.subtitle}}</P></h3>
-
       </header>
       <div class="m-goodGrid">
         <ul class="list clearfix">
@@ -14,7 +13,6 @@
               <div class="name">{{item.name}}</div>
               <div class="price">¥{{item.price}}</div>
             </router-link>
-
           </li>
         </ul>
       </div>
@@ -65,11 +63,11 @@
   }
 
   .item:nth-child(n) {
-    padding: 0rem 0.13333333333333333rem 0.44rem 0.26666666666666666rem;
+    padding: 0 0.13333333333333333rem 0.44rem 0.26666666666666666rem;
   }
 
   .item:nth-child(2n) {
-    padding: 0rem 0.26666666666666666rem 0.44rem 0.13333333333333333rem;
+    padding: 0 0.26666666666666666rem 0.44rem 0.13333333333333333rem;
 
   }
 

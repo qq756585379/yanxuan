@@ -29,7 +29,7 @@
 
 <style scoped>
   .special {
-    /*background-color: #fff;*/
+    background-color: #fff;
   }
 
   .special-no-loop .swiper-slide img {
