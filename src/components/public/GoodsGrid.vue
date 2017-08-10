@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="goodsgrid" v-for="eachdata in data">
-      <header>
-        <h3 class="title">{{eachdata.title}} <p>{{eachdata.subtitle}}</P></h3>
-      </header>
+      <header><h3 class="title">{{eachdata.title}} <p>{{eachdata.subtitle}}</P></h3></header>
       <div class="m-goodGrid">
         <ul class="list clearfix">
           <li class="item" v-for="item in eachdata.lists" :key="item.id">

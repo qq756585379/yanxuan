@@ -57,6 +57,7 @@
         </ul>
       </div>
     </div>
+
     <!--周一 周四 新品首发-->
     <div class="new-fast">
       <header class="hd">
@@ -67,12 +68,12 @@
             <i class="arrow-right"></i>
           </div>
         </router-link>
-
       </header>
       <ul>
         <no-loop-swiper :Items="newItems" class="recommend-no-loop"></no-loop-swiper>
       </ul>
     </div>
+
     <!--人气推荐-->
     <div class="peoplehot">
       <div class="hottitle">
@@ -83,7 +84,6 @@
       <cell></cell>
       <cell></cell>
     </div>
-    <goods-grid></goods-grid>
     <div></div>
   </div>
 </template>
