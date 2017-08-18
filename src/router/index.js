@@ -12,6 +12,12 @@ import Baby from '@/page/index/baby';
 import Messy from '@/page/index/messy';
 import Drink from '@/page/index/drink';
 import Hobby from '@/page/index/hobby';
+// 专题
+import SpecialIndex from '@/page/special/index';
+// 购物车
+import ShopCartIndex from '@/page/shopcart/index';
+// 个人中心
+import SelfIndex from '@/page/selfcenter/index';
 
 Vue.use(Router);
 
@@ -79,6 +85,22 @@ export default new Router({
           component: Hobby
         }
       ]
+    },
+    {
+      path: '/special',
+      name: 'Special',
+      component: SpecialIndex,
+      meta: { scrollToTop: true }
+    },
+    {
+      path: '/shopcart',
+      name: 'ShopCartIndex',
+      component: ShopCartIndex
+    },
+    {
+      path: '/self',
+      name: 'SelfIndex',
+      component: SelfIndex
     }
   ]
 });

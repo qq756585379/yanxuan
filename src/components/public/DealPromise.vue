@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   .promise {
     width: 100%;
     display: flex;
