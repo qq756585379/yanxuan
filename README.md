@@ -30,6 +30,7 @@ cnpm i axios -S
 cnpm i mint-ui -S
 cnpm i vuex -S
 cnpm i iview -S
+cnpm i vue-awesome-swiper -S
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
