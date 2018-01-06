@@ -3,6 +3,7 @@
     <each-tab :desc="homeDesc"></each-tab>
   </div>
 </template>
+
 <script>
   import {Indicator} from 'mint-ui';
   import eachTab from '@/components/public/EachTab';

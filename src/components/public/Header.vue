@@ -48,7 +48,7 @@
   .line .logo {
     width: 1.84rem;
     height: .53333rem;
-    background-image: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-11d65342f9.png);
+    background-image: url("../../assets/images/logo.png");
     display: inline-block;
     margin-right: .26667rem;
     background-size: cover;
@@ -56,7 +56,7 @@
   }
 
   .ipt {
-    width: 52%;
+    width: 72%;
   }
 
   .m-topSearchIpt {
@@ -73,7 +73,7 @@
 
   .m-topSearchIpt .icon {
     vertical-align: middle;
-    background-image: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png);
+    background-image: url(../../assets/images/search.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: .13333rem;

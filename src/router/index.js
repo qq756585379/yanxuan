@@ -90,7 +90,7 @@ export default new Router({
       path: '/special',
       name: 'Special',
       component: SpecialIndex,
-      meta: { scrollToTop: true }
+      meta: {scrollToTop: true}
     },
     {
       path: '/shopcart',

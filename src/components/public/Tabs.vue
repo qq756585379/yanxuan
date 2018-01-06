@@ -28,7 +28,6 @@
           this.$store.dispatch('changeMylistActive', id);
           return false;
         }
-        console.log(id);
         this.$store.dispatch('changeHeadertabActive', id);
       }
     }
@@ -76,12 +75,11 @@
     flex-shrink: 0;
     padding: 0 .4rem;
     overflow: scroll;
-
   }
 
   ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     background-color: transparent;
   }
 
@@ -107,9 +105,6 @@
     position: relative;
     z-index: 1;
     text-align: center;
-  }
-
-  header .tab {
     -webkit-flex-shrink: 0;
     -moz-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -149,7 +144,8 @@
   header::after {
     content: '';
     position: absolute;
-    background-color: #d9d9d9;
+    background-color: red;
+    /*background-color: #d9d9d9;*/
     left: 0;
     width: 100%;
     height: 1px;
